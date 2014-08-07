@@ -3,15 +3,20 @@
 
 AUTHOR = 'Abir Majumdar'
 SITENAME = 'Abir Majumdar'
-SITETAGLINE = 'useless sack of cellular activity'
+SITETAGLINE = 'demonstrably incompetent'
 SITEURL = 'http://enjoyabir.com'
-DEFAULT_CATEGORY = 'Blog'
+DEFAULT_CATEGORY = 'misc'
 
 TIMEZONE = 'America/Chicago'
 DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
 DEFAULT_LANG = 'en'
 
-
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = (
+	('Home', '/index.html'),
+	('About', '/pages/about.html'),
+	('Archives', '/archives.html'),
+)
 
 
 THEME = '/home/abir/documents/pelican/enjoy/theme/EnjoyAbir'
