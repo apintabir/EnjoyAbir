@@ -18,8 +18,13 @@ MENUITEMS = (
 	('Archives', '/archives.html'),
 )
 
+STATIC_PATHS = [
+	'images',
+	'swf',
+	'extras'
+]
 
-THEME = '/home/abir/documents/pelican/enjoy/theme/EnjoyAbir'
+THEME = './theme/EnjoyAbir'
 
 
 
